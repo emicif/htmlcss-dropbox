@@ -163,17 +163,19 @@ nav li a {
     padding-top: 30px;
 }
 
-.row:last-child {
-    margin-right: 0px;
-}
+
 
 .col{
-    width: 31%;
+    width: 31.3%;
     min-height: 1024px;
     border: 1px solid grey;
     margin: 0 2% 0 0;
-    
 }
+
+.col .third {
+    margin-right: 0px;
+}
+
 
 
 /* interno colonne */
@@ -264,7 +266,7 @@ h3 {
    
    .small-container-inside {
        height: 250px;
-       margin-top: 10px;
+       margin-top: 40px;
        border: 1px solid grey;
        
    }
@@ -273,6 +275,7 @@ h3 {
 
 .enterprise {
     margin-top: 25px;
+    margin-left: 10px;
       line-height: 45px; 
 }
 
@@ -309,4 +312,13 @@ h3 {
     color: black;
     border: 1px solid black;
     text-align: center;
+    
+}
+
+
+
+.new-col,
+.new-col-two {
+    border: none;
+    min-height: 0px;
 }
