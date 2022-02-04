@@ -7,3 +7,121 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+/*utility*/
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+
+
+
+header {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.logo {
+    padding: 39px;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.nav-right {
+    margin-right: 25px;
+}
+
+
+.btn {
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0px;
+    vertical-align: center;
+    padding: 10px 15px;
+}
+
+
+
+.first-container {
+    background-color: #b4d0e7;
+    height: 800px;
+    margin-top: 100px;
+}
+
+
+
+.paragraf .float-left {
+    font-size: 20px;
+    width: 25%;
+    padding-top: 250px;
+
+}
+
+
+
+.container {
+    margin: 100px auto;
+    height: 1000px;
+    width: 90%;
+}
+
+
+.first-container h1{
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    
+}
+
+
+
+.btn.annulla {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
