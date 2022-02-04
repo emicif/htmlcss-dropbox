@@ -163,11 +163,15 @@ nav li a {
     padding-top: 30px;
 }
 
+.row:last-child {
+    margin-right: 0px;
+}
+
 .col{
-    width: 29%;
+    width: 31%;
     min-height: 1024px;
     border: 1px solid grey;
-    margin: 0 2%;
+    margin: 0 2% 0 0;
     
 }
 
@@ -176,9 +180,9 @@ nav li a {
 
 .title {
     border-bottom: 1px solid grey;
-    height: 40px;
+    height: 55px;
     text-align: center;
-    line-height: 40px;
+    line-height: 55px;
     vertical-align: middle;
 }
 
@@ -190,7 +194,7 @@ nav li a {
 
 
 
-.first-part-col h3 {
+h3 {
     font-size: 30px;
 }
 
@@ -256,3 +260,53 @@ nav li a {
     .second-col-title ul li:last-child {
         line-height: 25px;
     }
+
+   
+   .small-container-inside {
+       height: 250px;
+       margin-top: 10px;
+       border: 1px solid grey;
+       
+   }
+
+
+
+.enterprise {
+    margin-top: 25px;
+      line-height: 45px; 
+}
+
+.contact {
+    margin-right: 10px;
+}
+
+.small-container-inside-img {
+    max-height: 1024px;
+    border: 1px soldi grey;
+}
+
+
+/* Partner */
+
+.small-container-inside-img .partner {
+    width: 60%;
+}
+
+
+.small-container-inside-img .text {
+    width: 30%;
+    margin-left: 8%;
+    margin-top: 15%;
+    
+}
+
+.small-container-inside-img .text p {
+    margin-top: 10px;
+}
+
+.small-container-inside-img .text .partner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+}
