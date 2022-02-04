@@ -252,13 +252,19 @@ h3 {
 }
 
 
+
 .second-part-col li::before {    
-        content: '\f00c';
+        content: "\f00c";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
         margin:0 5px 0 0px;
-        color: #0765ff;
+        display: inline-block;
+        
     }
 
 
+    
     .second-col-title ul li:last-child {
         line-height: 25px;
     }
@@ -311,8 +317,13 @@ h3 {
     background-color: white;
     color: black;
     border: 1px solid black;
-    text-align: center;
-    
+    text-align: center;    
+}
+
+
+
+.small-container-inside-img .text .partner:hover {
+    color: blue;
 }
 
 
@@ -321,4 +332,10 @@ h3 {
 .new-col-two {
     border: none;
     min-height: 0px;
+}
+
+.new-col .first-part-col p,
+.new-col-two .first-part-col p {
+    margin-top: 10px;
+    line-height: 25px;
 }
