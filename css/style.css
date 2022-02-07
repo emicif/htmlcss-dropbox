@@ -97,6 +97,7 @@ nav li a {
 }
 
 
+
 .btn {
     background-color: #0061ff;
     color: white;
@@ -199,7 +200,7 @@ nav li a {
     width: 31.3%;
     min-height: 1024px;
     border: 1px solid grey;
-    margin: 0 2% 0 0;
+    margin: 0 3% 0 0;
 }
 
 .col.third {
@@ -357,6 +358,11 @@ h3 {
     color: blue;
 }
 
+
+.new-col-one {
+    width: 31.3%;
+    margin: 0 2% 0 0;
+}
 
 
 .new-col,
@@ -628,17 +634,7 @@ summary {
 
   
 
-  .up {
-      display: none;
-  }
-
-
-  .h:hover {
-      background-color: red;
-  }
-
-
-
+  
 
 
 
