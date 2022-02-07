@@ -58,6 +58,7 @@ body {
 
 
 
+/* header */
 
 
 header {
@@ -668,7 +669,7 @@ footer {
 }
 
 
-.float-left ul li a {
+.footer-inside ul li a {
     color: white;
     text-decoration: none;
     line-height: 35px;
