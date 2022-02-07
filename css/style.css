@@ -403,13 +403,16 @@ h3 {
 
 .square.green {
     background-color: #a2d39b;
-    border: 2px solid white;
+    
 
 }
 
 .square .designit {
     color: white;
-    margin: 40px auto;
+    margin: 75px auto;
+    padding: 20px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -418,6 +421,13 @@ h3 {
 
 .square.violet {
     background-color: #61082b;
+}
+
+.square .asu {
+    margin: 30px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -471,12 +481,28 @@ h3 {
     background-color: #d5001f;
 }
 
+.square .bicycle {
+    margin: 45px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
 
-/* World Bicycle */
+
+/* Hearst */
 .square.light-blue {
     background-color: #b4d0e7;
-    
 }
+
+.square .hearst {
+    margin: 70px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Florida */
 
 .florida {
     background-color: #0093ce;
@@ -485,13 +511,35 @@ h3 {
     left: 0px
 }
 
+.square .img-florida {
+    margin: 65px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Tops */
 
 .tops {
     background-color: #ff1c1c;
     position: absolute;
     top: 250px;
-    left: 234px;
+    left: 285px;
 }
+
+.square .img-tops {
+    margin: 40px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Lonely planet */
 
 
 .square.lonely {
@@ -499,9 +547,25 @@ h3 {
     
 }
 
+.square .img-lonely {
+    margin: 50px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+}
+
+
+/* Channel */
+
 .square.channel {
     background-color: #ffd830;
-    
+}
+
+.square .img-channel {
+    margin: 50px auto;
+    padding: 50px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -638,3 +702,5 @@ font-size: 25px;
 .it a {
     color: white;
 }
+
+
