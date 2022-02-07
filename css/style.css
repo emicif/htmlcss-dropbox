@@ -282,17 +282,18 @@ h3 {
     list-style-type: none;
 }
 
+.second-part-col ul li i {
+    color:blue
+}
 
 
-.second-part-col li::before {    
-        content: "\f00c";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        margin:0 5px 0 0px;
-        display: inline-block;
+/*.second-part-col ul li:before {  
+        font-family: FontAwesome;  
+        content: "\f08d";
+        margin:0 5px 0 -15px;
+        color: #f00;
         
-    }
+    }*/
 
 
     
