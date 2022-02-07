@@ -419,6 +419,7 @@ h3 {
     padding: 20px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -430,10 +431,11 @@ h3 {
 }
 
 .square .asu {
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -492,6 +494,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -505,6 +508,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -522,6 +526,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -540,6 +545,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -558,6 +564,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
@@ -572,6 +579,7 @@ h3 {
     padding: 50px;
     width: 100%;
     height: auto;
+    -webkit-filter: invert(100%);
 }
 
 
