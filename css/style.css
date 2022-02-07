@@ -382,10 +382,96 @@ h3 {
 }
 
 
+
+
+/* quadrati */
+
 .quadrati {
-    height: 500px;
+   
     border: 1px dashed red;
+    position: relative;
 }
+
+
+.square {
+    height: 250px;
+    width: 15%;
+}
+
+
+/* quadrato verde designit */
+
+.square.green {
+    background-color: #a2d39b;
+    border: 2px solid white;
+
+}
+
+.square .designit {
+    color: white;
+    margin: 40px auto;
+}
+
+
+/* quadrato viola asu */
+
+
+.square.violet {
+    background-color: #61082b;
+}
+
+
+/* Designit grande */
+
+.big {
+    width: 40%;
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+/* World Bicycle */
+.square.red {
+    background-color: #d5001f;
+}
+
+
+/* World Bicycle */
+.square.light-blue {
+    background-color: #b4d0e7;
+    
+}
+
+.florida {
+    background-color: #0093ce;
+    position: absolute;
+    top: 250px;
+    left: 0px
+}
+
+
+.tops {
+    background-color: #ff1c1c;
+    position: absolute;
+    top: 250px;
+    left: 234px;
+}
+
+
+.square.lonely {
+    background-color: #0d2481;
+    
+}
+
+.square.channel {
+    background-color: #ffd830;
+    
+}
+
+
+
+
+
+
 
 
 
