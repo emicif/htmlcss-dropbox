@@ -379,6 +379,7 @@ h3 {
 .new-container {
     border: none;
     margin-top: 150px;
+    margin-bottom: 40px;
 }
 
 
@@ -388,7 +389,6 @@ h3 {
 
 .quadrati {
    
-    border: 1px dashed red;
     position: relative;
 }
 
@@ -429,10 +429,21 @@ h3 {
     background-color: #f5f5f5;
 }
 
+
+
+
 .text-big {
-    margin: 20px auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 60px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.copyright {
+    font-size: 10px;
+    position: absolute;
+    top: 14px;
+    left: 214px;
 }
 
 .text-big .p {
@@ -508,7 +519,7 @@ h3 {
 }
 
 .position {
-    margin: 40px auto;
+    margin: -40px auto;
     padding-top: 130px;
 }
 
@@ -521,8 +532,7 @@ h3 {
 
 
 .ask {
-    height: 300px;
-    margin: 10px auto;
+    margin: 150px auto;
 }
 
 
@@ -535,8 +545,14 @@ section {
   }*/
   
   details {
-    padding: 15px;
+    padding: 35px;
     margin-bottom: 2px;
+    border-bottom: 1px solid grey;
+
+  }
+
+  .one {
+    border-top: 1px solid grey;
   }
 
 summary {
@@ -546,10 +562,7 @@ summary {
     font-size: 1.2em;
   }
 
-  details > summary {
-      color: red;
-  }
-
+  
 
   .up {
       display: none;
